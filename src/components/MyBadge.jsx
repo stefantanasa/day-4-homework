@@ -3,7 +3,7 @@ import { Badge } from "react-bootstrap";
 
 const MyBadge = ({ color, textBadge }) => {
   return (
-    <Badge pill bg={color}>
+    <Badge pill variant={color}>
       {textBadge}
     </Badge>
   );
